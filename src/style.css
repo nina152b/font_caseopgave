@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .knap_hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
+
+  .knap_hover:hover {
+    background: black;
+    color: #edff02;
+  }
+
+  .autominmax {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  #baggrunden_footer {
+    background-image: url(/billeder/footer_baggrund.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
