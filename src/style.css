@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    font-family: "Dosis", sans-serif;
+    font-weight: 700 !important;
+    font-size: 2rem;
+  }
+
+  p {
+    font-family: "Dosis", sans-serif;
+    font-weight: 200;
+    line-height: 2;
+  }
+
+  a {
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+  }
+}
+
 @layer components {
   .knap_hover {
     color: black;
